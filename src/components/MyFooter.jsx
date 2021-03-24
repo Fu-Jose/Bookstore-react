@@ -1,4 +1,4 @@
-import { Card, Col, Container, Row } from "react-bootstrap"
+import { Badge, Card, Col, Container, Row } from "react-bootstrap"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faFacebookSquare, faTwitter, faInstagram, faLinkedin, faCcVisa, faCcPaypal, faCcMastercard, faCcApplePay, faCcAmex, faCcDiscover} from "@fortawesome/free-brands-svg-icons"
 
@@ -15,6 +15,7 @@ const MyFooter = () =>(
             </Col>
             <Col className="d-flex justify-content-end">
             <p>REACT BOOKSTORE</p>
+            <Badge>TM</Badge>
             </Col>
         </Row>
         <Row className="my-3">
